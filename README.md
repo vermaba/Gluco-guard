@@ -1,15 +1,16 @@
 # 🛡️ Gluco-Guard: Clinical Trial Integrity Portal
 
-### Improving Insulin Resistance Trials through AI-Verified Data
+### Improving Insulin Resistance Trials with AI-Verified Data
 
-**Gluco-Guard** is a digital health solution designed to reduce "lifestyle noise" in clinical trials. By correlating meal photos with Continuous Glucose Monitor (CGM) data, we identify whether glucose spikes are caused by unlogged meals or potential drug non-responsiveness.
+**Gluco-Guard** solves the "lifestyle noise" problem in clinical trials. It uses Computer Vision to identify meal types from photos and correlates them with Continuous Glucose Monitor (CGM) spikes to verify participant adherence.
 
-## 🚀 How to Run the Prototype
-Because this project uses interactive Python widgets, GitHub cannot preview it directly. Please use the link below to run the live interactive dashboard:
+## 🚀 How to View the Interactive Prototype
+GitHub cannot render the interactive widgets used in this project. Please use the official link below to run the live dashboard in Google Colab:
 
-👉 **[Open Live Prototype in Google Colab](https://colab.research.google.com/github/vermaba/Gluco-guard/blob/master/Untitled0.ipynb)**
+👉 **[RUN LIVE DASHBOARD IN GOOGLE COLAB](https://colab.research.google.com/github/vermaba/Gluco-guard/blob/master/Gluco_Guard_Analysis.ipynb)**
 
-## 🛠️ Key Features
-* **Multi-Page Interface:** Home, Data Upload, and Clinical Audit pages.
-* **Computer Vision Logic:** Identifies high-carb "spike-inducing" meals from photos.
-* **Real-time Correlation:** Maps meal timestamps directly to CGM glucose curves.
+## 🛠️ Tech Stack
+* **Python** (Data Processing)
+* **IPyWidgets** (Multi-page Web Interface)
+* **Matplotlib** (Glucose Trend Visualization)
+* **PIL** (Image Recognition Simulation)
